@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appemders>
+		<Console name="Console" target="SYSTEM_OUT"></Console>
+	</Appemders>
+	
+	<Loggers>
+		<Root level="info">
+			<Appenders re="Console"></Appenders>
+		</Root>
+	</Loggers>
+
+</Configuration>

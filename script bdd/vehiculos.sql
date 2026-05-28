@@ -9,3 +9,4 @@ CREATE TABLE vehiculos(
 	disponible BOOLEAN NOT NULL
 	
 );
+SELECT * FROM vehiculos;
