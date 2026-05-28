@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
-	<Appemders>
+	<Appenders>
 		<Console name="Console" target="SYSTEM_OUT"></Console>
-	</Appemders>
+	</Appenders>
 	
 	<Loggers>
 		<Root level="info">
-			<Appenders re="Console"></Appenders>
+			<AppenderRef ref="Console"/>
 		</Root>
 	</Loggers>
 
